@@ -1,0 +1,532 @@
+{
+  "header": {
+    "resources": "Resources",
+    "tools": "Tools",
+    "legal": "Legal Help",
+    "blog": "Blog"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "privacy": "Privacy",
+    "contact": "Contact",
+    "blog": "Blog"
+  },
+  "footer": {
+    "description": "Protecting your economic rights and privacy in an increasingly surveilled world.",
+    "quickLinks": "Quick Links",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "languages": "Languages",
+    "rights": "All rights reserved",
+    "followUs": "Follow Us",
+    "terms": "Terms of Service",
+    "contact": "Contact",
+    "madeWith": "Made with",
+    "by": "by"
+  },
+  "common": {
+    "selectLanguage": "Select language",
+    "getHelp": "Get Help",
+    "learnMore": "Learn More",
+    "soon": "Coming Soon",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "privacy": {
+    "hero": {
+      "title": "Protecting your digital privacy",
+      "subtitle": "Break the chains of tyrants and be truly free with our tools and resources.",
+      "cta": {
+        "resources": "View Services",
+        "help": "Get Help"
+      }
+    },
+    "tools": {
+      "heading": "Protection Services",
+      "subheading": "We protect your economic rights and financial privacy in countries with oppressive regimes",
+      "viewAllServices": "View All Services",
+      "legalAssistance": {
+        "title": "Legal assistance",
+        "description": "We connect clients with lawyers specializing in financial privacy violations and economic rights",
+        "cta": "Request Assistance"
+      },
+      "ghostX": {
+        "title": "GhostX cryptocurrency",
+        "description": "We facilitate compensation to collaborating lawyers through our private and anonymous cryptocurrency",
+        "cta": "Explore GhostX"
+      },
+      "attorneyNetwork": {
+        "title": "Attorney network",
+        "description": "Our global network of legal professionals specializing in economic rights in restrictive environments",
+        "cta": "Join the Network"
+      },
+      "financialPrivacy": {
+        "title": "Financial privacy",
+        "description": "Strategies and resources to protect your digital assets from government surveillance or confiscation",
+        "cta": "Protect Assets"
+      },
+      "learnMore": "Learn more",
+      "signal": {
+        "name": "Signal",
+        "description": "End-to-end encrypted messaging"
+      },
+      "protonvpn": {
+        "name": "ProtonVPN",
+        "description": "Secure VPN with no activity logging"
+      },
+      "firefox": {
+        "name": "Firefox",
+        "description": "Privacy-focused browser"
+      },
+      "protonmail": {
+        "name": "ProtonMail",
+        "description": "End-to-end encrypted email"
+      }
+    },
+    "resources": {
+      "title": "Privacy Resources",
+      "subtitle": "Guides, articles, and tutorials to protect your digital privacy",
+      "newsletter": {
+        "title": "Stay informed about your rights",
+        "description": "Subscribe to our newsletter to receive updates on legal cases, news, and financial protection resources",
+        "placeholder": "Your email address",
+        "button": "Subscribe",
+        "subscribe": "Subscribe",
+        "sending": "Sending...",
+        "success": "Subscribed!",
+        "thankYou": "Thank you for subscribing! You will soon receive our next newsletter.",
+        "error": "There was an error processing your subscription. Please try again.",
+        "privacy": "Your information will never be shared with third parties. We promise not to spam you."
+      },
+      "items": {
+        "guide1": {
+          "title": "Basic privacy guide",
+          "description": "Learn fundamental concepts of digital privacy"
+        },
+        "article1": {
+          "title": "Protect your passwords",
+          "description": "Best practices for password management"
+        },
+        "video1": {
+          "title": "VPN setup",
+          "description": "Step-by-step tutorial for setting up a VPN"
+        },
+        "podcast1": {
+          "title": "The future of privacy",
+          "description": "Interview with digital privacy experts"
+        }
+      },
+      "types": {
+        "guide": "Guide",
+        "article": "Article",
+        "video": "Video",
+        "podcast": "Podcast"
+      }
+    },
+    "encryption": {
+      "title": "Encryption Reimagined",
+      "description1": "Our advanced encryption technology transforms your sensitive data from plain text into unreadable code, ensuring that your information remains secure from unauthorized access.",
+      "description2": "Your data is encoded using state-of-the-art algorithms, creating an impenetrable shield between your private information and potential threats."
+    },
+    "partners": {
+      "title": "Strategic Partners",
+      "subtitle": "Working together to protect your privacy and economic rights",
+      "ghostX": {
+        "alt": "GhostX - Privacy Cryptocurrency"
+      },
+      "bezerraBorges": {
+        "alt": "Bezerra Borges Law Firm"
+      }
+    },
+    "page": {
+      "title": "Your Privacy is Our Priority",
+      "subtitle": "Discover how we protect your digital and financial rights",
+      "commitment": {
+        "title": "Our Privacy Commitment",
+        "description": "We are dedicated to protecting your digital and financial rights with the most advanced privacy and security technologies."
+      }
+    },
+    "features": {
+      "encryption": {
+        "title": "End-to-End Encryption",
+        "description": "Your data is protected with the most advanced encryption available."
+      },
+      "protection": {
+        "title": "Total Protection",
+        "description": "Multi-layer security systems to protect your information."
+      },
+      "anonymity": {
+        "title": "Guaranteed Anonymity",
+        "description": "Keep your identity protected in all transactions."
+      },
+      "control": {
+        "title": "Complete Control",
+        "description": "You have full control over your data and privacy."
+      }
+    }
+  },
+  "contact": {
+    "title": "Confidential Contact",
+    "subtitle": "Use this form to contact us securely. All information is transmitted and stored with end-to-end encryption.",
+    "form": {
+      "alias": {
+        "label": "Alias or Pseudonym",
+        "placeholder": "Anonymous Identifier"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "your@email.com"
+      },
+      "message": {
+        "label": "Your Message",
+        "placeholder": "Write your message here..."
+      },
+      "priority": {
+        "label": "Priority",
+        "options": {
+          "low": "Low (informational, especially for questions)",
+          "normal": "Normal (standard message)",
+          "high": "High",
+          "urgent": "Urgent (my life or the lives of others are at risk)"
+        }
+      },
+      "captcha": {
+        "label": "Security Verification",
+        "title": "Security Verification",
+        "instructions": "Enter the four-digit code to unlock",
+        "reset": "Reset",
+        "listen": "Listen",
+        "hideHint": "Hide Code",
+        "showHint": "Show Code",
+        "completed": "✓ Verification completed",
+        "success": "✓ Code verified successfully!"
+      },
+      "buttons": {
+        "reset": "Clear Form",
+        "send": "Send Message"
+      },
+      "submit": "Send Encrypted Message",
+      "sending": "Sending...",
+      "error": "Error sending message. Please try again."
+    },
+    "encryption": {
+      "title": "End-to-End Encryption",
+      "description": "All data in this form is encrypted using AES-256-GCM before being stored in our database.",
+      "methods": {
+        "aes": "AES-256 Encryption",
+        "storage": "Encrypted Storage",
+        "protection": "Data Protection"
+      }
+    },
+    "states": {
+      "success": "Your message has been sent securely. We will contact you soon.",
+      "error": "There was an error sending your message. Please try again."
+    }
+  },
+  "services": {
+    "legalAssistance": {
+      "title": "Legal Assistance",
+      "description": "We connect clients with lawyers specializing in financial privacy violations and economic rights",
+      "cta": "Request Assistance"
+    },
+    "ghostX": {
+      "title": "GhostX Cryptocurrency",
+      "description": "We facilitate compensation to collaborating lawyers through our private and anonymous cryptocurrency",
+      "cta": "Explore GhostX"
+    },
+    "attorneyNetwork": {
+      "title": "Attorney Network",
+      "description": "Our global network of legal professionals specializing in economic rights in restrictive environments",
+      "cta": "Join the Network"
+    },
+    "financialPrivacy": {
+      "title": "Financial Privacy",
+      "description": "Strategies and resources to protect your digital assets from government surveillance or confiscation",
+      "cta": "Protect Assets"
+    }
+  },
+  "admin": {
+    "title": "Admin Panel",
+    "dashboard": {
+      "title": "Dashboard",
+      "welcome": "Welcome, {name}",
+      "logout": "Sign Out",
+      "stats": {
+        "totalMessages": "Total Messages",
+        "urgentMessages": "Urgent Messages",
+        "pendingMessages": "Pending Messages",
+        "newsletterSubscribers": "Newsletter Subscribers"
+      },
+      "messageStatus": {
+        "title": "Message Status",
+        "processed": "Processed",
+        "pending": "Pending"
+      },
+      "subscriberStatus": {
+        "title": "Newsletter Subscribers",
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "error": {
+        "loading": "Error loading data"
+      }
+    },
+    "messages": {
+      "title": "Messages",
+      "error": {
+        "loading": "Error loading messages",
+        "update": "Error updating message"
+      },
+      "filters": {
+        "allStates": "All states",
+        "allPriorities": "All priorities"
+      },
+      "status": {
+        "pending": "Pending",
+        "processing": "Processing",
+        "resolved": "Resolved",
+        "archived": "Archived"
+      },
+      "priority": {
+        "urgent": "Urgent",
+        "normal": "Normal",
+        "low": "Low"
+      },
+      "table": {
+        "status": "Status",
+        "alias": "Alias",
+        "email": "Email",
+        "message": "Message",
+        "priority": "Priority",
+        "date": "Date",
+        "actions": "Actions"
+      },
+      "pagination": {
+        "showing": "Showing {from} to {to} of {total} messages",
+        "previous": "Previous",
+        "next": "Next"
+      }
+    },
+    "newsletter": {
+      "title": "Newsletter Subscriptions",
+      "error": {
+        "loading": "Error loading subscriptions"
+      },
+      "filters": {
+        "allStates": "All states",
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "table": {
+        "status": "Status",
+        "email": "Email",
+        "subscriptionDate": "Subscription Date",
+        "actions": "Actions"
+      },
+      "status": {
+        "active": "Active",
+        "inactive": "Inactive"
+      },
+      "actions": {
+        "activate": "Activate",
+        "deactivate": "Deactivate"
+      },
+      "pagination": {
+        "showing": "Showing {from} to {to} of {total} subscriptions"
+      },
+      "loading": "Loading subscriptions...",
+      "noSubscriptions": "No subscriptions found",
+      "update": {
+        "success": "Subscription updated successfully",
+        "error": "Error updating subscription"
+      },
+      "fetch": {
+        "error": "Error fetching subscriptions"
+      }
+    },
+    "common": {
+      "previous": "Previous",
+      "next": "Next",
+      "error": {
+        "update": "Error updating subscription",
+        "fetch": "Error fetching subscriptions"
+      },
+      "loading": "Loading..."
+    },
+    "login": {
+      "title": "Admin Panel",
+      "subtitle": "Sign in to access the panel",
+      "form": {
+        "email": {
+          "label": "Email",
+          "placeholder": "your@email.com"
+        },
+        "password": {
+          "label": "Password",
+          "placeholder": "Your password"
+        },
+        "submit": "Sign In",
+        "signing": "Signing in...",
+        "error": "Invalid credentials"
+      }
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "subtitle": "Protecting privacy and economic rights worldwide",
+    "mission": {
+      "title": "Our Mission",
+      "description": "Our mission is to protect the economic rights and financial privacy of individuals in countries with oppressive regimes by providing tools, resources, and legal assistance."
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "A world where economic freedom and financial privacy are fundamental rights respected and protected for everyone."
+    },
+    "values": {
+      "title": "Our Values",
+      "privacy": {
+        "title": "Privacy",
+        "description": "We protect our users' confidentiality and security"
+      },
+      "freedom": {
+        "title": "Freedom",
+        "description": "We defend economic freedom as a fundamental right"
+      },
+      "justice": {
+        "title": "Justice",
+        "description": "We fight against economic oppression and unjust surveillance"
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We develop advanced technological solutions for privacy"
+      }
+    },
+    "team": {
+      "title": "Our Team",
+      "roles": {
+        "legal": "Legal Advisor",
+        "privacy": "Lawyer",
+        "tech": "Founder and Head of Technology"
+      }
+    }
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "sections": {
+      "collection": {
+        "title": "Information Collection",
+        "description": "Information about how we collect and use your data",
+        "points": {
+          "point1": "We only collect essential information",
+          "point2": "We don't sell personal data",
+          "point3": "We protect your privacy with encryption"
+        }
+      },
+      "use": {
+        "title": "Information Usage",
+        "description": "How we use the collected information",
+        "points": {
+          "point1": "Service improvement",
+          "point2": "User communication",
+          "point3": "Legal protection"
+        }
+      },
+      "protection": {
+        "title": "Data Protection",
+        "description": "Security measures implemented",
+        "points": {
+          "point1": "End-to-end encryption",
+          "point2": "Secure storage",
+          "point3": "Restricted access"
+        }
+      },
+      "cookies": {
+        "title": "Cookie Policy",
+        "description": "Use of cookies and similar technologies",
+        "points": {
+          "point1": "Essential cookies",
+          "point2": "Analytics cookies",
+          "point3": "Cookie control"
+        }
+      },
+      "rights": {
+        "title": "User Rights",
+        "description": "Your rights regarding your personal data",
+        "points": {
+          "point1": "Data access",
+          "point2": "Rectification",
+          "point3": "Deletion"
+        }
+      },
+      "updates": {
+        "title": "Updates",
+        "description": "Changes to the privacy policy",
+        "points": {
+          "point1": "Change notification",
+          "point2": "Regular reviews",
+          "point3": "Version history"
+        }
+      }
+    }
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "sections": {
+      "acceptance": {
+        "title": "Terms Acceptance",
+        "description": "By using our services, you accept these terms",
+        "points": {
+          "point1": "Binding usage",
+          "point2": "Legal capacity",
+          "point3": "Modifications"
+        }
+      },
+      "services": {
+        "title": "Provided Services",
+        "description": "Description of our services",
+        "points": {
+          "point1": "Legal assistance",
+          "point2": "Privacy resources",
+          "point3": "Protection tools"
+        }
+      },
+      "conduct": {
+        "title": "User Conduct",
+        "description": "Rules for using our services",
+        "points": {
+          "point1": "Responsible use",
+          "point2": "Prohibited activities",
+          "point3": "Consequences"
+        }
+      },
+      "intellectual": {
+        "title": "Intellectual Property",
+        "description": "Rights over content",
+        "points": {
+          "point1": "Reserved rights",
+          "point2": "Permitted use",
+          "point3": "Restrictions"
+        }
+      },
+      "liability": {
+        "title": "Liability Limitation",
+        "description": "Scope of our liability",
+        "points": {
+          "point1": "Warranty disclaimer",
+          "point2": "Limitations",
+          "point3": "Indemnification"
+        }
+      },
+      "termination": {
+        "title": "Termination",
+        "description": "Service termination",
+        "points": {
+          "point1": "Grounds",
+          "point2": "Effects",
+          "point3": "Post-termination data"
+        }
+      }
+    }
+  }
+}

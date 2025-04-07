@@ -1,0 +1,536 @@
+{
+  "header": {
+    "resources": "Recursos",
+    "tools": "Herramientas",
+    "legal": "Ayuda Legal",
+    "blog": "Blog"
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "privacy": "Privacidad",
+    "contact": "Contacto",
+    "blog": "Blog"
+  },
+  "footer": {
+    "description": "Protegiendo tus derechos económicos y privacidad en un mundo cada vez más vigilado.",
+    "quickLinks": "Enlaces Rápidos",
+    "about": "Acerca de",
+    "privacy": "Política de Privacidad",
+    "languages": "Idiomas",
+    "rights": "Todos los derechos reservados",
+    "followUs": "Síguenos",
+    "terms": "Términos de Servicio",
+    "contact": "Contacto",
+    "madeWith": "Hecho con",
+    "by": "por"
+  },
+  "common": {
+    "selectLanguage": "Seleccionar idioma",
+    "getHelp": "Obtener Ayuda",
+    "learnMore": "Saber Más",
+    "soon": "Próximamente"
+  },
+  "privacy": {
+    "hero": {
+      "title": "Protegiendo tu privacidad digital",
+      "subtitle": "Rompe las cadenas de los tiranos y sé verdaderamente libre con nuestras herramientas y recursos.",
+      "cta": {
+        "resources": "Ver Servicios",
+        "help": "Obtener Ayuda"
+      }
+    },
+    "tools": {
+      "heading": "Servicios de protección",
+      "subheading": "Protegemos tus derechos económicos y privacidad financiera en países con regímenes opresivos",
+      "viewAllServices": "Ver Todos los Servicios",
+      "title": "Herramientas de Privacidad",
+      "subtitle": "Aplicaciones y servicios recomendados para proteger tu privacidad digital",
+      "categories": {
+        "all": "Todos",
+        "vpn": "VPN",
+        "browsers": "Navegadores",
+        "email": "Email",
+        "messaging": "Mensajería"
+      },
+      "learnMore": "Saber más",
+      "signal": {
+        "name": "Signal",
+        "description": "Mensajería cifrada de extremo a extremo"
+      },
+      "protonvpn": {
+        "name": "ProtonVPN",
+        "description": "VPN segura sin registro de actividad"
+      },
+      "firefox": {
+        "name": "Firefox",
+        "description": "Navegador enfocado en privacidad"
+      },
+      "protonmail": {
+        "name": "ProtonMail",
+        "description": "Email con cifrado de extremo a extremo"
+      },
+      "legalAssistance": {
+        "title": "Asistencia legal",
+        "description": "Conectamos clientes con abogados especializados en vulneraciones de privacidad financiera y derechos económicos",
+        "cta": "Solicitar asistencia"
+      },
+      "ghostX": {
+        "title": "GhostX",
+        "description": "Facilitamos compensaciones a abogados colaboradores mediante nuestra criptomoneda privada y anónima",
+        "cta": "Explorar GhostX"
+      },
+      "attorneyNetwork": {
+        "title": "Red de abogados",
+        "description": "Nuestra red global de profesionales legales especializados en derechos económicos en entornos restrictivos",
+        "cta": "Unirse a la Red"
+      },
+      "financialPrivacy": {
+        "title": "Privacidad financiera",
+        "description": "Estrategias y recursos para proteger tus activos digitales de la vigilancia gubernamental o confiscación",
+        "cta": "Proteger activos"
+      },
+      "viewAll": "Ver Todos los Servicios"
+    },
+    "resources": {
+      "title": "Recursos de privacidad",
+      "subtitle": "Guías, artículos y tutoriales para proteger tu privacidad digital",
+      "newsletter": {
+        "title": "Mantente informado sobre tus derechos",
+        "description": "Suscríbete a nuestro boletín para recibir actualizaciones sobre casos legales, noticias y recursos de protección financiera",
+        "placeholder": "Tu dirección de email",
+        "button": "Suscribirse",
+        "subscribe": "Suscribirse",
+        "sending": "Enviando...",
+        "success": "¡Suscrito!",
+        "thankYou": "¡Gracias por suscribirte! Pronto recibirás nuestro próximo boletín.",
+        "error": "Hubo un error al procesar tu suscripción. Por favor intenta nuevamente.",
+        "privacy": "Tu información nunca será compartida con terceros. Prometemos no enviarte spam."
+      },
+      "items": {
+        "guide1": {
+          "title": "Guía de privacidad básica",
+          "description": "Aprende conceptos fundamentales de privacidad digital"
+        },
+        "article1": {
+          "title": "Protege tus contraseñas",
+          "description": "Mejores prácticas para la gestión de contraseñas"
+        },
+        "video1": {
+          "title": "Configuración de VPN",
+          "description": "Tutorial paso a paso para configurar una VPN"
+        },
+        "podcast1": {
+          "title": "El futuro de la privacidad",
+          "description": "Entrevista con expertos en privacidad digital"
+        }
+      },
+      "types": {
+        "guide": "Guía",
+        "article": "Artículo",
+        "video": "Video",
+        "podcast": "Podcast"
+      }
+    },
+    "partners": {
+      "title": "Socios estratégicos",
+      "subtitle": "Trabajando juntos para proteger tu privacidad y derechos económicos",
+      "ghostX": {
+        "alt": "GhostX - Criptomoneda Privada"
+      },
+      "bezerraBorges": {
+        "alt": "Bufete de Abogados Bezerra Borges"
+      }
+    },
+    "page": {
+      "title": "Tu Privacidad es Nuestra Prioridad",
+      "subtitle": "Descubre cómo protegemos tus derechos digitales y financieros",
+      "commitment": {
+        "title": "Nuestro Compromiso con la Privacidad",
+        "description": "Nos dedicamos a proteger tus derechos digitales y financieros con las más avanzadas tecnologías de privacidad y seguridad."
+      }
+    },
+    "features": {
+      "encryption": {
+        "title": "Cifrado de Extremo a Extremo",
+        "description": "Tus datos están protegidos con el cifrado más avanzado disponible."
+      },
+      "protection": {
+        "title": "Protección Total",
+        "description": "Sistemas de seguridad multicapa para proteger tu información."
+      },
+      "anonymity": {
+        "title": "Anonimato Garantizado",
+        "description": "Mantén tu identidad protegida en todas las transacciones."
+      },
+      "control": {
+        "title": "Control Total",
+        "description": "Tú tienes el control completo sobre tus datos y privacidad."
+      }
+    }
+  },
+  "contact": {
+    "title": "Contacto Confidencial",
+    "subtitle": "Utiliza este formulario para contactarnos de forma segura. Toda la información se transmite y almacena con cifrado de extremo a extremo.",
+    "form": {
+      "alias": {
+        "label": "Alias o Seudónimo",
+        "placeholder": "Identificador Anónimo"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "tu@email.com"
+      },
+      "message": {
+        "label": "Tu Mensaje",
+        "placeholder": "Escribe tu mensaje aquí..."
+      },
+      "priority": {
+        "label": "Prioridad",
+        "options": {
+          "low": "Baja (informativa, especialmente para preguntas)",
+          "normal": "Normal (mensaje estándar)",
+          "high": "Alta",
+          "urgent": "Urgente (mi vida o la de otros está en riesgo)"
+        }
+      },
+      "captcha": {
+        "label": "Verificación de Seguridad",
+        "title": "Verificación de Seguridad",
+        "instructions": "Introduce el código de cuatro dígitos para desbloquear",
+        "reset": "Reiniciar",
+        "listen": "Escuchar",
+        "hideHint": "Ocultar Código",
+        "showHint": "Mostrar Código",
+        "completed": "✓ Verificación completada",
+        "success": "✓ ¡Código verificado correctamente!"
+      },
+      "buttons": {
+        "reset": "Limpiar Formulario",
+        "send": "Enviar Mensaje"
+      },
+      "submit": "Enviar Mensaje Cifrado",
+      "sending": "Enviando...",
+      "success": "¡Mensaje enviado con éxito!",
+      "error": "Error al enviar el mensaje. Por favor, inténtalo de nuevo."
+    },
+    "encryption": {
+      "title": "Cifrado de Extremo a Extremo",
+      "description": "Todos los datos de este formulario se cifran mediante AES-256-GCM antes de almacenarse en nuestra base de datos.",
+      "methods": {
+        "aes": "Cifrado AES-256",
+        "storage": "Almacenamiento Cifrado",
+        "protection": "Protección de Datos"
+      }
+    },
+    "states": {
+      "success": "Tu mensaje ha sido enviado de forma segura. Nos pondremos en contacto contigo pronto.",
+      "error": "Hubo un error al enviar tu mensaje. Por favor, inténtalo de nuevo."
+    }
+  },
+  "services": {
+    "legalAssistance": {
+      "title": "Asistencia Legal",
+      "description": "Conectamos clientes con abogados especializados en vulneraciones de privacidad financiera y derechos económicos",
+      "cta": "Solicitar Asistencia"
+    },
+    "ghostX": {
+      "title": "Criptomonedas GhostX",
+      "description": "Facilitamos compensaciones a abogados colaboradores mediante nuestra criptomoneda privada y anónima",
+      "cta": "Explorar GhostX"
+    },
+    "attorneyNetwork": {
+      "title": "Red de Abogados",
+      "description": "Nuestra red global de profesionales legales especializados en derechos económicos en entornos restrictivos",
+      "cta": "Unirse a la Red"
+    },
+    "financialPrivacy": {
+      "title": "Privacidad Financiera",
+      "description": "Estrategias y recursos para proteger tus activos digitales de la vigilancia gubernamental o confiscación",
+      "cta": "Proteger Activos"
+    }
+  },
+  "admin": {
+    "title": "Panel Administrativo",
+    "dashboard": {
+      "title": "Dashboard",
+      "welcome": "Bienvenido, {name}",
+      "logout": "Cerrar Sesión",
+      "stats": {
+        "totalMessages": "Total Mensajes",
+        "urgentMessages": "Mensajes Urgentes",
+        "pendingMessages": "Mensajes Pendientes",
+        "newsletterSubscribers": "Suscriptores Newsletter"
+      },
+      "messageStatus": {
+        "title": "Estado de Mensajes",
+        "processed": "Procesados",
+        "pending": "Pendientes"
+      },
+      "subscriberStatus": {
+        "title": "Suscriptores Newsletter",
+        "active": "Activos",
+        "inactive": "Inactivos"
+      },
+      "error": {
+        "loading": "Error cargando datos"
+      }
+    },
+    "messages": {
+      "title": "Mensajes",
+      "error": {
+        "loading": "Error cargando mensajes",
+        "update": "Error actualizando mensaje"
+      },
+      "filters": {
+        "allStates": "Todos los estados",
+        "allPriorities": "Todas las prioridades"
+      },
+      "status": {
+        "pending": "Pendiente",
+        "processing": "En proceso",
+        "resolved": "Resuelto",
+        "archived": "Archivado"
+      },
+      "priority": {
+        "urgent": "Urgente",
+        "normal": "Normal",
+        "low": "Baja"
+      },
+      "table": {
+        "status": "Estado",
+        "alias": "Alias",
+        "email": "Email",
+        "message": "Mensaje",
+        "priority": "Prioridad",
+        "date": "Fecha",
+        "actions": "Acciones"
+      },
+      "pagination": {
+        "showing": "Mostrando {from} a {to} de {total} mensajes",
+        "previous": "Anterior",
+        "next": "Siguiente"
+      }
+    },
+    "common": {
+      "previous": "Anterior",
+      "next": "Siguiente",
+      "error": {
+        "update": "Error al actualizar la suscripción",
+        "fetch": "Error al obtener las suscripciones"
+      },
+      "loading": "Cargando..."
+    },
+    "newsletter": {
+      "title": "Suscripciones Newsletter",
+      "error": {
+        "loading": "Error cargando suscripciones"
+      },
+      "filters": {
+        "allStates": "Todos los estados",
+        "active": "Activos",
+        "inactive": "Inactivos"
+      },
+      "table": {
+        "status": "Estado",
+        "email": "Email",
+        "subscriptionDate": "Fecha de suscripción",
+        "actions": "Acciones"
+      },
+      "status": {
+        "active": "Activo",
+        "inactive": "Inactivo"
+      },
+      "actions": {
+        "activate": "Activar",
+        "deactivate": "Desactivar"
+      },
+      "pagination": {
+        "showing": "Mostrando {from} a {to} de {total} suscripciones"
+      },
+      "loading": "Cargando suscripciones...",
+      "noSubscriptions": "No hay suscripciones",
+      "update": {
+        "success": "Suscripción actualizada correctamente",
+        "error": "Error al actualizar la suscripción"
+      },
+      "fetch": {
+        "error": "Error al obtener las suscripciones"
+      }
+    },
+    "login": {
+      "title": "Panel Administrativo",
+      "subtitle": "Inicia sesión para acceder al panel",
+      "form": {
+        "email": {
+          "label": "Correo electrónico",
+          "placeholder": "tu@email.com"
+        },
+        "password": {
+          "label": "Contraseña",
+          "placeholder": "Tu contraseña"
+        },
+        "submit": "Iniciar Sesión",
+        "signing": "Iniciando sesión...",
+        "error": "Credenciales inválidas"
+      }
+    }
+  },
+  "about": {
+    "title": "Sobre Nosotros",
+    "subtitle": "Protegiendo la privacidad y los derechos económicos en todo el mundo",
+    "mission": {
+      "title": "Nuestra Misión",
+      "description": "Nuestra misión es proteger los derechos económicos y la privacidad financiera de las personas en países con regímenes opresivos, proporcionando herramientas, recursos y asistencia legal."
+    },
+    "vision": {
+      "title": "Nuestra Visión",
+      "description": "Un mundo donde la libertad económica y la privacidad financiera sean derechos fundamentales respetados y protegidos para todos."
+    },
+    "values": {
+      "title": "Nuestros Valores",
+      "privacy": {
+        "title": "Privacidad",
+        "description": "Protegemos la confidencialidad y seguridad de nuestros usuarios"
+      },
+      "freedom": {
+        "title": "Libertad",
+        "description": "Defendemos la libertad económica como derecho fundamental"
+      },
+      "justice": {
+        "title": "Justicia",
+        "description": "Luchamos contra la opresión económica y la vigilancia injusta"
+      },
+      "innovation": {
+        "title": "Innovación",
+        "description": "Desarrollamos soluciones tecnológicas avanzadas para la privacidad"
+      }
+    },
+    "team": {
+      "title": "Nuestro Equipo",
+      "roles": {
+        "legal": "Asesor Legal",
+        "privacy": "Abogado",
+        "tech": "Fundador y Director de Tecnología"
+      }
+    }
+  },
+  "privacyPolicy": {
+    "title": "Política de Privacidad",
+    "sections": {
+      "collection": {
+        "title": "Recolección de Información",
+        "description": "Información sobre cómo recopilamos y utilizamos sus datos",
+        "points": {
+          "point1": "Solo recopilamos información esencial",
+          "point2": "No vendemos datos personales",
+          "point3": "Protegemos su privacidad con cifrado"
+        }
+      },
+      "use": {
+        "title": "Uso de la Información",
+        "description": "Cómo utilizamos la información recopilada",
+        "points": {
+          "point1": "Mejora de servicios",
+          "point2": "Comunicación con usuarios",
+          "point3": "Protección legal"
+        }
+      },
+      "protection": {
+        "title": "Protección de Datos",
+        "description": "Medidas de seguridad implementadas",
+        "points": {
+          "point1": "Cifrado de extremo a extremo",
+          "point2": "Almacenamiento seguro",
+          "point3": "Acceso restringido"
+        }
+      },
+      "cookies": {
+        "title": "Política de Cookies",
+        "description": "Uso de cookies y tecnologías similares",
+        "points": {
+          "point1": "Cookies esenciales",
+          "point2": "Cookies de análisis",
+          "point3": "Control de cookies"
+        }
+      },
+      "rights": {
+        "title": "Derechos del Usuario",
+        "description": "Sus derechos sobre sus datos personales",
+        "points": {
+          "point1": "Acceso a datos",
+          "point2": "Rectificación",
+          "point3": "Eliminación"
+        }
+      },
+      "updates": {
+        "title": "Actualizaciones",
+        "description": "Cambios en la política de privacidad",
+        "points": {
+          "point1": "Notificación de cambios",
+          "point2": "Revisiones periódicas",
+          "point3": "Historial de versiones"
+        }
+      }
+    }
+  },
+  "terms": {
+    "title": "Términos de Servicio",
+    "sections": {
+      "acceptance": {
+        "title": "Aceptación de Términos",
+        "description": "Al usar nuestros servicios, acepta estos términos",
+        "points": {
+          "point1": "Uso vinculante",
+          "point2": "Capacidad legal",
+          "point3": "Modificaciones"
+        }
+      },
+      "services": {
+        "title": "Servicios Proporcionados",
+        "description": "Descripción de nuestros servicios",
+        "points": {
+          "point1": "Asistencia legal",
+          "point2": "Recursos de privacidad",
+          "point3": "Herramientas de protección"
+        }
+      },
+      "conduct": {
+        "title": "Conducta del Usuario",
+        "description": "Reglas de uso de nuestros servicios",
+        "points": {
+          "point1": "Uso responsable",
+          "point2": "Actividades prohibidas",
+          "point3": "Consecuencias"
+        }
+      },
+      "intellectual": {
+        "title": "Propiedad Intelectual",
+        "description": "Derechos sobre el contenido",
+        "points": {
+          "point1": "Derechos reservados",
+          "point2": "Uso permitido",
+          "point3": "Restricciones"
+        }
+      },
+      "liability": {
+        "title": "Limitación de Responsabilidad",
+        "description": "Alcance de nuestra responsabilidad",
+        "points": {
+          "point1": "Exención de garantías",
+          "point2": "Limitaciones",
+          "point3": "Indemnización"
+        }
+      },
+      "termination": {
+        "title": "Terminación",
+        "description": "Finalización del servicio",
+        "points": {
+          "point1": "Motivos",
+          "point2": "Efectos",
+          "point3": "Datos posteriores"
+        }
+      }
+    }
+  }
+}

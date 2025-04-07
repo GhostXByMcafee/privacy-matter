@@ -1,0 +1,30 @@
+User-agent: *
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+Allow: /*.js$
+Allow: /*.css$
+
+User-agent: Bingbot
+Allow: /
+Allow: /*.js$
+Allow: /*.css$
+
+User-agent: DuckDuckBot
+Allow: /
+
+Allow: /es
+Allow: /en
+Allow: /pt
+
+Disallow: /_next/static/testing
+Disallow: /api/internal/
+Disallow: /admin/
+Disallow: /login/
+Disallow: /*/draft/
+
+Disallow: /*?source=*
+Disallow: /*&ref=*
+
+Crawl-delay: 2
