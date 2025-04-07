@@ -1,0 +1,215 @@
+{
+  "header": {
+    "resources": "Recursos",
+    "tools": "Herramientas",
+    "legal": "Ayuda Legal",
+    "blog": "Blog"
+  },
+  "nav": {
+    "home": "Inicio",
+    "about": "Acerca de",
+    "privacy": "Privacidad",
+    "contact": "Contacto",
+    "blog": "Blog"
+  },
+  "footer": {
+    "description": "Protegiendo tus derechos económicos y privacidad en un mundo cada vez más vigilado.",
+    "quickLinks": "Enlaces Rápidos",
+    "about": "Acerca de",
+    "privacy": "Política de Privacidad",
+    "languages": "Idiomas",
+    "rights": "Todos los derechos reservados",
+    "followUs": "Síguenos",
+    "terms": "Términos de Servicio",
+    "contact": "Contacto"
+  },
+  "common": {
+    "selectLanguage": "Seleccionar idioma",
+    "getHelp": "Obtener Ayuda",
+    "learnMore": "Saber Más",
+    "soon": "Próximamente"
+  },
+  "privacy": {
+    "hero": {
+      "title": "Protegiendo Tu Privacidad Digital",
+      "subtitle": "Recursos y ayuda para defender tus derechos digitales",
+      "cta": {
+        "resources": "Ver Servicios",
+        "help": "Obtener Ayuda"
+      }
+    },
+    "tools": {
+      "heading": "Servicios de Protección",
+      "subheading": "Protegemos tus derechos económicos y privacidad financiera en países con regímenes opresivos",
+      "viewAllServices": "Ver Todos los Servicios",
+      "title": "Herramientas de Privacidad",
+      "subtitle": "Aplicaciones y servicios recomendados para proteger tu privacidad digital",
+      "categories": {
+        "all": "Todos",
+        "vpn": "VPN",
+        "browsers": "Navegadores",
+        "email": "Email",
+        "messaging": "Mensajería"
+      },
+      "learnMore": "Saber más",
+      "signal": {
+        "name": "Signal",
+        "description": "Mensajería cifrada de extremo a extremo"
+      },
+      "protonvpn": {
+        "name": "ProtonVPN",
+        "description": "VPN segura sin registro de actividad"
+      },
+      "firefox": {
+        "name": "Firefox",
+        "description": "Navegador enfocado en privacidad"
+      },
+      "protonmail": {
+        "name": "ProtonMail",
+        "description": "Email con cifrado de extremo a extremo"
+      },
+      "legalAssistance": {
+        "title": "Asistencia Legal",
+        "description": "Conectamos clientes con abogados especializados en vulneraciones de privacidad financiera y derechos económicos",
+        "cta": "Solicitar Asistencia"
+      },
+      "ghostX": {
+        "title": "GhostX",
+        "description": "Facilitamos compensaciones a abogados colaboradores mediante nuestra criptomoneda privada y anónima",
+        "cta": "Explorar GhostX"
+      },
+      "attorneyNetwork": {
+        "title": "Red de Abogados",
+        "description": "Nuestra red global de profesionales legales especializados en derechos económicos en entornos restrictivos",
+        "cta": "Unirse a la Red"
+      },
+      "financialPrivacy": {
+        "title": "Privacidad Financiera",
+        "description": "Estrategias y recursos para proteger tus activos digitales de la vigilancia gubernamental o confiscación",
+        "cta": "Proteger Activos"
+      },
+      "viewAll": "Ver Todos los Servicios"
+    },
+    "resources": {
+      "title": "Recursos de Privacidad",
+      "subtitle": "Guías, artículos y tutoriales para proteger tu privacidad digital",
+      "newsletter": {
+        "title": "Mantente Informado Sobre Tus Derechos",
+        "description": "Suscríbete a nuestro boletín para recibir actualizaciones sobre casos legales, noticias y recursos de protección financiera",
+        "placeholder": "Tu dirección de email",
+        "button": "Suscribirse",
+        "subscribe": "Suscribirse",
+        "sending": "Enviando...",
+        "success": "¡Suscrito!",
+        "thankYou": "¡Gracias por suscribirte! Pronto recibirás nuestro próximo boletín.",
+        "error": "Hubo un error al procesar tu suscripción. Por favor intenta nuevamente.",
+        "privacy": "Tu información nunca será compartida con terceros. Prometemos no enviarte spam."
+      },
+      "items": {
+        "guide1": {
+          "title": "Guía de Privacidad Básica",
+          "description": "Aprende conceptos fundamentales de privacidad digital"
+        },
+        "article1": {
+          "title": "Protege tus Contraseñas",
+          "description": "Mejores prácticas para la gestión de contraseñas"
+        },
+        "video1": {
+          "title": "Configuración de VPN",
+          "description": "Tutorial paso a paso para configurar una VPN"
+        },
+        "podcast1": {
+          "title": "El Futuro de la Privacidad",
+          "description": "Entrevista con expertos en privacidad digital"
+        }
+      },
+      "types": {
+        "guide": "Guía",
+        "article": "Artículo",
+        "video": "Video",
+        "podcast": "Podcast"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contacto Confidencial",
+    "subtitle": "Utiliza este formulario para contactarnos de forma segura. Toda la información se transmite y almacena con cifrado de extremo a extremo.",
+    "form": {
+      "alias": {
+        "label": "Alias o Seudónimo",
+        "placeholder": "Identificador Anónimo"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "tu@email.com"
+      },
+      "message": {
+        "label": "Tu Mensaje",
+        "placeholder": "Escribe tu mensaje aquí..."
+      },
+      "priority": {
+        "label": "Prioridad",
+        "options": {
+          "low": "Baja (informativa, especialmente para preguntas)",
+          "normal": "Normal (mensaje estándar)",
+          "high": "Alta",
+          "urgent": "Urgente (mi vida o la de otros está en riesgo)"
+        }
+      },
+      "captcha": {
+        "label": "Verificación de Seguridad",
+        "title": "Verificación de Seguridad",
+        "instructions": "Introduce el código de cuatro dígitos para desbloquear",
+        "reset": "Reiniciar",
+        "listen": "Escuchar",
+        "hideHint": "Ocultar Código",
+        "showHint": "Mostrar Código",
+        "completed": "✓ Verificación completada",
+        "success": "✓ ¡Código verificado correctamente!"
+      },
+      "buttons": {
+        "reset": "Limpiar Formulario",
+        "send": "Enviar Mensaje"
+      },
+      "submit": "Enviar Mensaje Cifrado",
+      "sending": "Enviando...",
+      "success": "¡Mensaje enviado con éxito!",
+      "error": "Error al enviar el mensaje. Por favor, inténtalo de nuevo."
+    },
+    "encryption": {
+      "title": "Cifrado de Extremo a Extremo",
+      "description": "Todos los datos de este formulario se cifran mediante AES-256-GCM antes de almacenarse en nuestra base de datos.",
+      "methods": {
+        "aes": "Cifrado AES-256",
+        "storage": "Almacenamiento Cifrado",
+        "protection": "Protección de Datos"
+      }
+    },
+    "states": {
+      "success": "Tu mensaje ha sido enviado de forma segura. Nos pondremos en contacto contigo pronto.",
+      "error": "Hubo un error al enviar tu mensaje. Por favor, inténtalo de nuevo."
+    }
+  },
+  "services": {
+    "legalAssistance": {
+      "title": "Asistencia Legal",
+      "description": "Conectamos clientes con abogados especializados en vulneraciones de privacidad financiera y derechos económicos",
+      "cta": "Solicitar Asistencia"
+    },
+    "ghostX": {
+      "title": "Criptomonedas GhostX",
+      "description": "Facilitamos compensaciones a abogados colaboradores mediante nuestra criptomoneda privada y anónima",
+      "cta": "Explorar GhostX"
+    },
+    "attorneyNetwork": {
+      "title": "Red de Abogados",
+      "description": "Nuestra red global de profesionales legales especializados en derechos económicos en entornos restrictivos",
+      "cta": "Unirse a la Red"
+    },
+    "financialPrivacy": {
+      "title": "Privacidad Financiera",
+      "description": "Estrategias y recursos para proteger tus activos digitales de la vigilancia gubernamental o confiscación",
+      "cta": "Proteger Activos"
+    }
+  }
+}

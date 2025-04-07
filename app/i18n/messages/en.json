@@ -1,0 +1,218 @@
+{
+  "header": {
+    "resources": "Resources",
+    "tools": "Tools",
+    "legal": "Legal Help",
+    "blog": "Blog"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "privacy": "Privacy",
+    "contact": "Contact",
+    "blog": "Blog"
+  },
+  "footer": {
+    "description": "Protecting your economic rights and privacy in an increasingly surveilled world.",
+    "quickLinks": "Quick Links",
+    "about": "About",
+    "privacy": "Privacy Policy",
+    "languages": "Languages",
+    "rights": "All rights reserved",
+    "followUs": "Follow Us",
+    "terms": "Terms of Service",
+    "contact": "Contact"
+  },
+  "common": {
+    "selectLanguage": "Select language",
+    "getHelp": "Get Help",
+    "learnMore": "Learn More",
+    "soon": "Coming Soon"
+  },
+  "privacy": {
+    "hero": {
+      "title": "Protecting Your Digital Privacy",
+      "subtitle": "Resources and help to defend your digital rights",
+      "cta": {
+        "resources": "View Services",
+        "help": "Get Help"
+      }
+    },
+    "tools": {
+      "heading": "Protection Services",
+      "subheading": "We protect your economic rights and financial privacy in countries with oppressive regimes",
+      "viewAllServices": "View All Services",
+      "legalAssistance": {
+        "title": "Legal Assistance",
+        "description": "We connect clients with lawyers specializing in financial privacy violations and economic rights",
+        "cta": "Request Assistance"
+      },
+      "ghostX": {
+        "title": "GhostX Cryptocurrency",
+        "description": "We facilitate compensation to collaborating lawyers through our private and anonymous cryptocurrency",
+        "cta": "Explore GhostX"
+      },
+      "attorneyNetwork": {
+        "title": "Attorney Network",
+        "description": "Our global network of legal professionals specializing in economic rights in restrictive environments",
+        "cta": "Join the Network"
+      },
+      "financialPrivacy": {
+        "title": "Financial Privacy",
+        "description": "Strategies and resources to protect your digital assets from government surveillance or confiscation",
+        "cta": "Protect Assets"
+      },
+      "title": "Privacy Tools",
+      "subtitle": "Recommended apps and services to protect your digital privacy",
+      "categories": {
+        "all": "All",
+        "vpn": "VPN",
+        "browsers": "Browsers",
+        "email": "Email",
+        "messaging": "Messaging"
+      },
+      "learnMore": "Learn more",
+      "signal": {
+        "name": "Signal",
+        "description": "End-to-end encrypted messaging"
+      },
+      "protonvpn": {
+        "name": "ProtonVPN",
+        "description": "Secure VPN with no activity logging"
+      },
+      "firefox": {
+        "name": "Firefox",
+        "description": "Privacy-focused browser"
+      },
+      "protonmail": {
+        "name": "ProtonMail",
+        "description": "End-to-end encrypted email"
+      }
+    },
+    "resources": {
+      "title": "Privacy Resources",
+      "subtitle": "Guides, articles, and tutorials to protect your digital privacy",
+      "newsletter": {
+        "title": "Stay Informed About Your Rights",
+        "description": "Subscribe to our newsletter to receive updates on legal cases, news, and financial protection resources",
+        "placeholder": "Your email address",
+        "button": "Subscribe",
+        "subscribe": "Subscribe",
+        "sending": "Sending...",
+        "success": "Subscribed!",
+        "thankYou": "Thank you for subscribing! You will soon receive our next newsletter.",
+        "error": "There was an error processing your subscription. Please try again.",
+        "privacy": "Your information will never be shared with third parties. We promise not to spam you."
+      },
+      "items": {
+        "guide1": {
+          "title": "Basic Privacy Guide",
+          "description": "Learn fundamental concepts of digital privacy"
+        },
+        "article1": {
+          "title": "Protect Your Passwords",
+          "description": "Best practices for password management"
+        },
+        "video1": {
+          "title": "VPN Setup",
+          "description": "Step-by-step tutorial for setting up a VPN"
+        },
+        "podcast1": {
+          "title": "The Future of Privacy",
+          "description": "Interview with digital privacy experts"
+        }
+      },
+      "types": {
+        "guide": "Guide",
+        "article": "Article",
+        "video": "Video",
+        "podcast": "Podcast"
+      }
+    },
+    "encryption": {
+      "title": "Encryption Reimagined",
+      "description1": "Our advanced encryption technology transforms your sensitive data from plain text into unreadable code, ensuring that your information remains secure from unauthorized access.",
+      "description2": "Your data is encoded using state-of-the-art algorithms, creating an impenetrable shield between your private information and potential threats."
+    }
+  },
+  "contact": {
+    "title": "Confidential Contact",
+    "subtitle": "Use this form to contact us securely. All information is transmitted and stored with end-to-end encryption.",
+    "form": {
+      "alias": {
+        "label": "Alias or Pseudonym",
+        "placeholder": "Anonymous Identifier"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "your@email.com"
+      },
+      "message": {
+        "label": "Your Message",
+        "placeholder": "Write your message here..."
+      },
+      "priority": {
+        "label": "Priority",
+        "options": {
+          "low": "Low (informational, especially for questions)",
+          "normal": "Normal (standard message)",
+          "high": "High",
+          "urgent": "Urgent (my life or the lives of others are at risk)"
+        }
+      },
+      "captcha": {
+        "label": "Security Verification",
+        "title": "Security Verification",
+        "instructions": "Enter the four-digit code to unlock",
+        "reset": "Reset",
+        "listen": "Listen",
+        "hideHint": "Hide Code",
+        "showHint": "Show Code",
+        "completed": "✓ Verification completed",
+        "success": "✓ Code verified successfully!"
+      },
+      "buttons": {
+        "reset": "Clear Form",
+        "send": "Send Message"
+      },
+      "submit": "Send Encrypted Message",
+      "sending": "Sending...",
+      "error": "Error sending message. Please try again."
+    },
+    "encryption": {
+      "title": "End-to-End Encryption",
+      "description": "All data in this form is encrypted using AES-256-GCM before being stored in our database.",
+      "methods": {
+        "aes": "AES-256 Encryption",
+        "storage": "Encrypted Storage",
+        "protection": "Data Protection"
+      }
+    },
+    "states": {
+      "success": "Your message has been sent securely. We will contact you soon.",
+      "error": "There was an error sending your message. Please try again."
+    }
+  },
+  "services": {
+    "legalAssistance": {
+      "title": "Legal Assistance",
+      "description": "We connect clients with lawyers specializing in financial privacy violations and economic rights",
+      "cta": "Request Assistance"
+    },
+    "ghostX": {
+      "title": "GhostX Cryptocurrency",
+      "description": "We facilitate compensation to collaborating lawyers through our private and anonymous cryptocurrency",
+      "cta": "Explore GhostX"
+    },
+    "attorneyNetwork": {
+      "title": "Attorney Network",
+      "description": "Our global network of legal professionals specializing in economic rights in restrictive environments",
+      "cta": "Join the Network"
+    },
+    "financialPrivacy": {
+      "title": "Financial Privacy",
+      "description": "Strategies and resources to protect your digital assets from government surveillance or confiscation",
+      "cta": "Protect Assets"
+    }
+  }
+}
