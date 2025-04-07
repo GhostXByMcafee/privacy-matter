@@ -1,4 +1,6 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --background: #000000;
@@ -172,12 +174,6 @@ body {
   }
 }
 
-.header-glass {
-  backdrop-filter: blur(10px);
-  background-color: rgba(0, 0, 0, 0.5);
-  border-bottom: 1px solid rgba(59, 130, 246, 0.2);
-}
-
 .nav-link-hover {
   position: relative;
 }
@@ -201,16 +197,6 @@ body {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 0.5rem;
   transition: all 0.2s ease;
-}
-
-.menu-backdrop {
-  background-color: rgba(0, 0, 0, 0.6);
-  backdrop-filter: blur(8px);
-}
-
-.menu-container {
-  background: linear-gradient(to bottom, #111827, #000000);
-  border-left: 1px solid rgba(59, 130, 246, 0.2);
 }
 
 .menu-item {
@@ -572,19 +558,82 @@ body {
   animation-delay: 2.2s;
 }
 
+.contact-button {
+  background-color: rgba(79, 70, 229, 0.2); /* Color indigo con transparencia */
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(79, 70, 229, 0.3);
+  transition: all 0.2s ease;
+}
+
+.contact-button:hover {
+  background-color: rgba(79, 70, 229, 0.3);
+  border-color: rgba(79, 70, 229, 0.5);
+  transform: translateY(-1px);
+}
+
 .gradient-icon {
-  @apply text-transparent bg-clip-text bg-gradient-to-br from-indigo-400 via-purple-500 to-indigo-600;
+  color: transparent;
+  background-clip: text;
+  background-image: linear-gradient(to bottom right, rgb(129, 140, 248), rgb(168, 85, 247), rgb(79, 70, 229));
   filter: drop-shadow(0 0 8px rgba(99, 102, 241, 0.4));
 }
 
 .gradient-button {
-  @apply bg-gradient-to-r from-indigo-600 to-purple-700 hover:from-indigo-700 hover:to-purple-800 text-white font-medium transition-all duration-300 transform hover:scale-105 shadow-lg shadow-indigo-600/30;
+  background-image: linear-gradient(to right, rgb(79, 70, 229), rgb(109, 40, 217));
+  color: white;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  transform: scale(1);
+  box-shadow: 0 10px 15px -3px rgba(79, 70, 229, 0.3);
+}
+
+.gradient-button:hover {
+  background-image: linear-gradient(to right, rgb(67, 56, 202), rgb(91, 33, 182));
+  transform: scale(1.05);
 }
 
 .gradient-button-outline {
-  @apply bg-transparent border-2 border-indigo-500 text-white hover:bg-indigo-900/30 transition-all duration-300 transform hover:scale-105;
+  background-color: transparent;
+  border: 2px solid rgb(99, 102, 241);
+  color: white;
+  transition: all 0.3s ease;
+  transform: scale(1);
 }
 
-.contact-button {
-  @apply bg-gradient-to-r from-indigo-600 to-purple-700 hover:from-indigo-700 hover:to-purple-800 text-white font-medium transition-colors;
+.gradient-button-outline:hover {
+  background-color: rgba(79, 70, 229, 0.3);
+  transform: scale(1.05);
+}
+
+.header-glass {
+  background-color: rgba(24, 24, 27, 0.8);
+  backdrop-filter: blur(8px);
+}
+
+.menu-backdrop {
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+}
+
+.menu-container {
+  background-color: rgb(24, 24, 27);
+  border-left: 1px solid rgb(39, 39, 42);
+}
+
+@layer components {
+  .header-glass {
+    @apply bg-zinc-900/80 backdrop-blur-md;
+  }
+
+  .menu-backdrop {
+    @apply bg-black/50 backdrop-blur-sm;
+  }
+
+  .menu-container {
+    @apply bg-zinc-900 border-l border-zinc-800;
+  }
+
+  .contact-button {
+    @apply bg-indigo-500/10 hover:bg-indigo-500/20 transition-colors;
+  }
 }

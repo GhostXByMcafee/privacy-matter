@@ -1,71 +1,41 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
-import { match } from '@formatjs/intl-localematcher';
-import Negotiator from 'negotiator';
 
-const locales = ['en', 'es', 'pt'];
-const defaultLocale = 'en';
-
-const protectedRoutes = [
-  '/resources',
-  '/tools',
-  '/legal-help',
-  '/contact',
-  '/admin',
-  '/dashboard'
-];
-
-function getLocale(request: NextRequest) {
-  const headers = {
-    'accept-language': request.headers.get('accept-language') || '',
-  };
-  
-  const languages = new Negotiator({ headers }).languages();
-  return match(languages, locales, defaultLocale);
-}
-
-function shouldHandleLocale(pathname: string) {
-  if (
-    pathname.startsWith('/_next') ||
-    pathname.startsWith('/api') ||
-    pathname.includes('.') ||
-    pathname.startsWith('/static')
-  ) {
-    return false;
-  }
-  
-  return true;
-}
-
-export function middleware(request: NextRequest) {
+export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
-  
-  if (!shouldHandleLocale(pathname)) {
-    return NextResponse.next();
-  }
-  
-  const pathnameHasLocale = locales.some(
-    locale => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
-  );
-  
-  if (pathnameHasLocale) return NextResponse.next();
+  const authToken = request.cookies.get('auth-token');
 
-  const cookieLocale = request.cookies.get('NEXT_LOCALE')?.value;
-  const headerLocale = request.headers.get('accept-language')?.split(',')[0].split('-')[0];
-  
-  let locale = cookieLocale || headerLocale || defaultLocale;
-  if (!locales.includes(locale)) locale = defaultLocale;
+  // Manejar solo rutas admin
+  if (pathname.startsWith('/admin')) {
+    // Ruta raíz de admin
+    if (pathname === '/admin') {
+      if (authToken) {
+        return NextResponse.redirect(new URL('/admin/dashboard', request.url));
+      } else {
+        return NextResponse.redirect(new URL('/admin/login', request.url));
+      }
+    }
 
-  if (locale === defaultLocale) {
-    return NextResponse.next();
+    // Ruta de login
+    if (pathname === '/admin/login') {
+      if (authToken) {
+        return NextResponse.redirect(new URL('/admin/dashboard', request.url));
+      }
+      return NextResponse.next();
+    }
+
+    // Todas las demás rutas admin requieren autenticación
+    if (!authToken) {
+      return NextResponse.redirect(new URL('/admin/login', request.url));
+    }
   }
-  
-  const newUrl = new URL(`/${locale}${pathname}`, request.url);
-  return NextResponse.redirect(newUrl);
+
+  return NextResponse.next();
 }
 
 export const config = {
   matcher: [
-    '/((?!api|_next/static|_next/image|favicon.ico).*)',
-  ],
+    '/admin',
+    '/admin/:path*'
+  ]
 }; 

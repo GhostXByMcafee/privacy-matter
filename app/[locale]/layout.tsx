@@ -24,30 +24,28 @@ function getMessages(locale: string) {
   return messages[safeLocale] || messages.en;
 }
 
-export async function generateMetadata({ params }: { params: { locale: string } }): Promise<Metadata> {
-  const locale = params.locale || 'en';
-  return getMetadata(locale);
+interface LocaleLayoutProps {
+  children: React.ReactNode;
+  params: {
+    locale: string;
+  };
 }
 
-export default async function LocaleLayout({
-  children,
-  params,
+export async function generateMetadata({
+  params: { locale }
 }: {
-  children: React.ReactNode;
-  params: { locale: string };
-}) {
-  const locale = await Promise.resolve(params.locale || 'en');
-  const validLocale = SUPPORTED_LOCALES.includes(locale) ? locale : 'en';
-  
-  const localeMessages = messages[validLocale as keyof typeof messages] || messages.en;
-  
+  params: { locale: string }
+}): Promise<Metadata> {
+  return {
+    title: messages[locale as keyof typeof messages].privacy.hero.title,
+    description: messages[locale as keyof typeof messages].privacy.hero.subtitle,
+  };
+}
+
+export default function LocaleLayout({ children, params: { locale = 'en' } }: LocaleLayoutProps) {
   return (
-    <html lang={validLocale} className={montserrat.variable}>
-      <body className="font-sans">
-        <IntlClientProvider locale={validLocale} messages={localeMessages}>
-          {children}
-        </IntlClientProvider>
-      </body>
-    </html>
+    <IntlClientProvider locale={locale} messages={messages[locale as keyof typeof messages]}>
+      {children}
+    </IntlClientProvider>
   );
 } 

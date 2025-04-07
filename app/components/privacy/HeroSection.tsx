@@ -46,11 +46,16 @@ export default function HeroSection({ customClass = '' }: HeroSectionProps) {
       constructor() {
         this.x = Math.random() * canvas.width;
         this.y = Math.random() * canvas.height;
-        this.size = Math.random() * 3 + 1;
-        this.speedX = (Math.random() - 0.5) * 0.5;
-        this.speedY = (Math.random() - 0.5) * 0.5;
+        this.size = Math.random() * 4 + 2;
+        this.speedX = (Math.random() - 0.5) * 1;
+        this.speedY = (Math.random() - 0.5) * 1;
         
-        const colors = ['#4f46e5', '#06b6d4', '#8b5cf6', '#3b82f6'];
+        const colors = [
+          '#6366f1',
+          '#06b6d4',
+          '#a855f7',
+          '#3b82f6'
+        ];
         this.color = colors[Math.floor(Math.random() * colors.length)];
       }
       
@@ -72,13 +77,13 @@ export default function HeroSection({ customClass = '' }: HeroSectionProps) {
         ctx.beginPath();
         ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
         ctx.fillStyle = this.color;
-        ctx.globalAlpha = 0.5;
+        ctx.globalAlpha = 1;
         ctx.fill();
       }
     }
     
     const init = () => {
-      for (let i = 0; i < 50; i++) {
+      for (let i = 0; i < 75; i++) {
         particles.push(new Particle());
       }
     };
@@ -91,8 +96,8 @@ export default function HeroSection({ customClass = '' }: HeroSectionProps) {
         particles[i].draw();
       }
       
-      ctx.strokeStyle = 'rgba(255, 255, 255, 0.05)';
-      ctx.lineWidth = 0.5;
+      ctx.strokeStyle = 'rgba(255, 255, 255, 0.15)';
+      ctx.lineWidth = 0.8;
       
       for (let i = 0; i < particles.length; i++) {
         for (let j = i; j < particles.length; j++) {
@@ -100,8 +105,8 @@ export default function HeroSection({ customClass = '' }: HeroSectionProps) {
           const dy = particles[i].y - particles[j].y;
           const distance = Math.sqrt(dx * dx + dy * dy);
           
-          if (distance < 100) {
-            ctx.globalAlpha = 1 - (distance / 100);
+          if (distance < 150) {
+            ctx.globalAlpha = 0.8 - (distance / 150);
             ctx.beginPath();
             ctx.moveTo(particles[i].x, particles[i].y);
             ctx.lineTo(particles[j].x, particles[j].y);
@@ -154,14 +159,14 @@ export default function HeroSection({ customClass = '' }: HeroSectionProps) {
     const loadingManager = new THREE.LoadingManager();
     loadingManager.setURLModifier((url) => {
       if (url.endsWith('scene.bin')) {
-        return '/broken-chains.bin';
+        return './broken-chains.bin';
       }
       return url;
     });
     
     loader.manager = loadingManager;
     
-    loader.load('/broken-chains.gltf', (gltf) => {
+    loader.load('./broken-chains.gltf', (gltf) => {
       const model = gltf.scene;
       
       model.scale.set(4.0, 4.0, 4.0);
@@ -243,8 +248,10 @@ export default function HeroSection({ customClass = '' }: HeroSectionProps) {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center pt-20 pb-20 cipher-bg">
+    <section className="relative min-h-screen flex items-center pt-20 pb-20 bg-black">
       <canvas ref={canvasRef} className="absolute inset-0 z-0" />
+      
+      <div className="absolute inset-0 bg-gradient-to-b from-black via-black to-black opacity-70"></div>
       
       <div className="container mx-auto px-6 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-5 gap-12 items-center min-h-[80vh] py-12">
@@ -255,14 +262,12 @@ export default function HeroSection({ customClass = '' }: HeroSectionProps) {
             className="text-center md:text-left md:col-span-3 md:pl-8"
           >
             <motion.h1 
-              className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight decrypt-animation relative"
+              className="text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight decrypt-animation relative text-white"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.2, duration: 1 }}
             >
-              <span className="inline-block bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-700">
-                {t('privacy.hero.title', 'Protecting Your Digital Privacy')}
-              </span>
+              {t('privacy.hero.title', 'Protecting Your Digital Privacy')}
             </motion.h1>
             
             <motion.p 
@@ -307,7 +312,7 @@ export default function HeroSection({ customClass = '' }: HeroSectionProps) {
             transition={{ duration: 1, delay: 0.2 }}
             className="hidden md:flex items-center justify-center relative md:col-span-2"
             ref={modelContainerRef}
-            style={{ height: '500px' }}
+            style={{ height: '600px' }}
           />
         </div>
       </div>

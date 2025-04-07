@@ -58,14 +58,17 @@ export default function PrivacyTools({ customClass = '' }: PrivacyToolsProps) {
       icon: faGavel,
       title: 'privacy.tools.legalAssistance.title',
       description: 'privacy.tools.legalAssistance.description',
-      href: '/legal-assistance',
+      href: '/contact',
       cta: 'privacy.tools.legalAssistance.cta'
     },
     {
       icon: faCoins,
       title: 'privacy.tools.ghostX.title',
       description: 'privacy.tools.ghostX.description',
-      href: '/ghostx',
+      href: 'https://ghostx.tech',
+      newTab: true,
+      target: '_blank',
+      external: true,
       cta: 'privacy.tools.ghostX.cta'
     },
     {
@@ -90,10 +93,10 @@ export default function PrivacyTools({ customClass = '' }: PrivacyToolsProps) {
       id="privacy-tools"
       className={`relative overflow-hidden py-24 bg-black ${customClass}`}
       style={{
-        background: 'linear-gradient(to bottom, #000000, #030712)'
+        background: 'linear-gradient(180deg, #000000 0%, #000000 100%)'
       }}
     >
-      <div className="privacy-gradient absolute top-0 left-0 w-full h-full opacity-10"></div>
+      <div className="privacy-gradient absolute top-0 left-0 w-full h-full opacity-5"></div>
       
       <div className="container mx-auto px-4 relative z-10">
         <motion.div
@@ -103,10 +106,10 @@ export default function PrivacyTools({ customClass = '' }: PrivacyToolsProps) {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl font-bold mb-6 tools-heading inline-block bg-clip-text text-transparent bg-gradient-to-r from-indigo-600 to-purple-700">
-            {t('privacy.tools.heading', 'Protection Services')}
+            {t('privacy.tools.heading')}
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto mt-6">
-            {t('privacy.tools.subheading', 'We protect your economic rights and financial privacy in countries with oppressive regimes')}
+            {t('privacy.tools.subheading')}
           </p>
         </motion.div>
         
@@ -140,43 +143,39 @@ export default function PrivacyTools({ customClass = '' }: PrivacyToolsProps) {
                 {t(service.description)}
               </p>
               
-              <Link href={service.href}>
-                <motion.button 
-                  className={`privacy-tool-button bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-medium py-3 px-6 rounded-full w-full`}
-                  whileHover={{ scale: 1.03 }}
-                  whileTap={{ scale: 0.98 }}
+              {service.external ? (
+                <a 
+                  href={service.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block"
                 >
-                  {t(service.cta)}
-                </motion.button>
-              </Link>
+                  <motion.button 
+                    className={`privacy-tool-button bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-medium py-3 px-6 rounded-full w-full`}
+                    whileHover={{ scale: 1.03 }}
+                    whileTap={{ scale: 0.98 }}
+                  >
+                    {t(service.cta)}
+                  </motion.button>
+                </a>
+              ) : (
+                <Link href={service.href}>
+                  <motion.button 
+                    className={`privacy-tool-button bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-medium py-3 px-6 rounded-full w-full`}
+                    whileHover={{ scale: 1.03 }}
+                    whileTap={{ scale: 0.98 }}
+                  >
+                    {t(service.cta)}
+                  </motion.button>
+                </Link>
+              )}
             </motion.div>
           ))}
         </div>
-        
-        <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={isInView ? { opacity: 1, scale: 1 } : {}}
-          transition={{ duration: 0.7, delay: 0.5 }}
-          className="mt-20 text-center"
-        >
-          <Link href="/tools">
-            <motion.button 
-              className="footer-language-btn bg-transparent border-2 border-blue-500 text-white hover:bg-blue-900/30 px-8 py-4 rounded-full font-medium text-lg inline-flex items-center space-x-2"
-              whileHover={{ scale: 1.05, y: -3 }}
-              whileTap={{ scale: 0.98 }}
-              transition={{ type: "spring", stiffness: 400, damping: 10 }}
-            >
-              <span>{t('viewAll')}</span>
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                <path fillRule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clipRule="evenodd" />
-              </svg>
-            </motion.button>
-          </Link>
-        </motion.div>
       </div>
       
       {isClient && (
-        <div className="code-lines absolute inset-0 overflow-hidden opacity-15 z-0 pointer-events-none">
+        <div className="code-lines absolute inset-0 overflow-hidden opacity-10 z-0 pointer-events-none">
           {codeLines.map((line, index) => (
             <div 
               key={index} 

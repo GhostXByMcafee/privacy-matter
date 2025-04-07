@@ -1,6 +1,14 @@
 'use client';
 
-import { Header, Footer, HeroSection, PrivacyTools, ResourcesSection } from '../components/LocalizedComponents';
+import { 
+  Header, 
+  Footer, 
+  HeroSection, 
+  PrivacyTools, 
+  ResourcesSection, 
+  PartnersSection,
+  NewsletterSection 
+} from '../components/LocalizedComponents';
 
 export default function HomePage() {
   return (
@@ -10,6 +18,8 @@ export default function HomePage() {
         <HeroSection />
         <PrivacyTools />
         <ResourcesSection />
+        <PartnersSection />
+        <NewsletterSection />
       </main>
       <Footer />
     </>
