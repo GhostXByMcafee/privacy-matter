@@ -32,17 +32,24 @@ interface LocaleLayoutProps {
 }
 
 export async function generateMetadata({
-  params: { locale }
+  params,
 }: {
   params: { locale: string }
 }): Promise<Metadata> {
+  const locale = (await Promise.resolve(params)).locale || 'en';
+  
   return {
     title: messages[locale as keyof typeof messages].privacy.hero.title,
     description: messages[locale as keyof typeof messages].privacy.hero.subtitle,
   };
 }
 
-export default function LocaleLayout({ children, params: { locale = 'en' } }: LocaleLayoutProps) {
+export default async function LocaleLayout({ 
+  children, 
+  params,
+}: LocaleLayoutProps) {
+  const locale = (await Promise.resolve(params)).locale || 'en';
+  
   return (
     <IntlClientProvider locale={locale} messages={messages[locale as keyof typeof messages]}>
       {children}
