@@ -1,13 +1,29 @@
 import { NextResponse } from 'next/server';
 import type { NextRequest } from 'next/server';
 
+const supportedLocales = ['en', 'es', 'pt'];
+
 export async function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl;
   const authToken = request.cookies.get('auth-token');
+  
+  const pathnameHasLocale = supportedLocales.some(
+    locale => pathname.startsWith(`/${locale}/`) || pathname === `/${locale}`
+  );
+  
+  if (pathname === '/') {
+    const url = new URL(`/en`, request.url);
+    return NextResponse.rewrite(url);
+  }
+  
+  if (!pathnameHasLocale && !pathname.startsWith('/admin') && 
+      !pathname.startsWith('/_next') && !pathname.includes('.') && 
+      !pathname.startsWith('/api')) {
+    const url = new URL(`/en${pathname}`, request.url);
+    return NextResponse.rewrite(url);
+  }
 
-  // Manejar solo rutas admin
   if (pathname.startsWith('/admin')) {
-    // Ruta raíz de admin
     if (pathname === '/admin') {
       if (authToken) {
         return NextResponse.redirect(new URL('/admin/dashboard', request.url));
@@ -16,7 +32,6 @@ export async function middleware(request: NextRequest) {
       }
     }
 
-    // Ruta de login
     if (pathname === '/admin/login') {
       if (authToken) {
         return NextResponse.redirect(new URL('/admin/dashboard', request.url));
@@ -24,7 +39,7 @@ export async function middleware(request: NextRequest) {
       return NextResponse.next();
     }
 
-    // Todas las demás rutas admin requieren autenticación
+
     if (!authToken) {
       return NextResponse.redirect(new URL('/admin/login', request.url));
     }
@@ -35,7 +50,7 @@ export async function middleware(request: NextRequest) {
 
 export const config = {
   matcher: [
-    '/admin',
+    '/:path*',
     '/admin/:path*'
   ]
 }; 

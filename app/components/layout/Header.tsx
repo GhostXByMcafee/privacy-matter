@@ -129,7 +129,7 @@ export default function Header({
               ) : (
                 <>
                   <Link 
-                    href={`/${locale}/contact`}
+                    href={locale === 'en' ? '/contact' : `/${locale}/contact`}
                     className={`contact-button py-3 px-4 rounded-md flex items-center justify-center ${
                       currentPath === '/contact' ? 'bg-indigo-600' : ''
                     }`}
