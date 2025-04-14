@@ -17,7 +17,7 @@ export default function PartnersSection({ customClass = '' }: PartnersSectionPro
   const partners = [
     {
       name: 'GhostX',
-      logo: '/ghostX-original.webp',
+      logo: '/ghostX-logo.png',
       alt: t('privacy.partners.ghostX.alt'),
       href: 'https://ghostx.tech',
       width: 200,
@@ -25,7 +25,7 @@ export default function PartnersSection({ customClass = '' }: PartnersSectionPro
     },
     {
       name: 'Bezerra Borges',
-      logo: '/bblogo.svg',
+      logo: '/bblogo.png',
       alt: t('privacy.partners.bezerraBorges.alt'),
       href: 'https://boazbezerra.com.br/',
       width: 200,
