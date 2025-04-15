@@ -24,7 +24,7 @@ export default function ResourcesSection({ customClass = '' }: ResourcesSectionP
       description: t('privacy.resources.items.guide1.description'),
       type: t('privacy.resources.types.guide'),
       icon: faBook,
-      url: '#'
+      url: 'https://privacymatters.ghost.io/the-beginners-guide-to-digital-privacy/'
     },
     {
       id: 'article1',
@@ -32,7 +32,7 @@ export default function ResourcesSection({ customClass = '' }: ResourcesSectionP
       description: t('privacy.resources.items.article1.description'),
       type: t('privacy.resources.types.article'),
       icon: faFileAlt,
-      url: '#'
+      url: 'https://privacymatters.ghost.io/lock-the-digital-door-a-beginners-guide-to-strong-passwords/'
     },
     {
       id: 'video1',
@@ -40,8 +40,9 @@ export default function ResourcesSection({ customClass = '' }: ResourcesSectionP
       description: t('privacy.resources.items.video1.description'),
       type: t('privacy.resources.types.video'),
       icon: faVideo,
-      url: '#'
-    },
+      url: 'https://privacymatters.ghost.io/how-to-stay-safe-online-with-free-vpns/'
+    }
+    /* 
     {
       id: 'podcast1',
       title: t('privacy.resources.items.podcast1.title'),
@@ -50,6 +51,7 @@ export default function ResourcesSection({ customClass = '' }: ResourcesSectionP
       icon: faPodcast,
       url: '#'
     }
+    */
   ];
   
   const containerVariants = {

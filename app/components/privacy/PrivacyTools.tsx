@@ -70,7 +70,7 @@ export default function PrivacyTools({ customClass = '' }: PrivacyToolsProps) {
       target: '_blank',
       external: true,
       cta: 'privacy.tools.ghostX.cta'
-    },
+    }/* ,
     {
       icon: faHandshake,
       title: 'privacy.tools.attorneyNetwork.title',
@@ -84,7 +84,7 @@ export default function PrivacyTools({ customClass = '' }: PrivacyToolsProps) {
       description: 'privacy.tools.financialPrivacy.description',
       href: '/financial-privacy',
       cta: 'privacy.tools.financialPrivacy.cta'
-    }
+    } */
   ];
   
   return (

@@ -109,16 +109,16 @@
       },
       "items": {
         "guide1": {
-          "title": "Guia básico de privacidade",
-          "description": "Aprenda conceitos fundamentais de privacidade digital"
+          "title": "Guia Básico de Privacidade Digital",
+          "description": "Aprenda práticas essenciais de privacidade, desde mensagens seguras até proteção de dados, e assuma o controle de sua vida digital"
         },
         "article1": {
-          "title": "Proteja suas senhas",
-          "description": "Melhores práticas para gerenciamento de senhas"
+          "title": "Tranque a Porta Digital: Guia de Senhas Fortes",
+          "description": "Aprenda práticas essenciais para criar e gerenciar senhas fortes, usar gerenciadores de senhas e implementar autenticação de dois fatores"
         },
         "video1": {
-          "title": "Configuração de VPN",
-          "description": "Tutorial passo a passo para configurar uma VPN"
+          "title": "Como Manter-se Seguro Online com VPNs Gratuitas",
+          "description": "Guia passo a passo para proteger sua privacidade usando Windscribe e Proton VPN, com instruções detalhadas de configuração para desktop e celular"
         },
         "podcast1": {
           "title": "O futuro da privacidade",

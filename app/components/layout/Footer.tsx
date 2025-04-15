@@ -42,6 +42,7 @@ export default function Footer({ customClass = '' }: FooterProps) {
   ];
   
   const legalLinks = [
+    /*
     {
       href: `/${locale}/privacy-policy`,
       label: t('footer.privacy'),
@@ -52,6 +53,7 @@ export default function Footer({ customClass = '' }: FooterProps) {
       label: t('footer.terms'),
       icon: faFileAlt
     },
+    */
     {
       href: `/${locale}/contact`,
       label: t('footer.contact'),
