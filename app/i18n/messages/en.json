@@ -101,16 +101,16 @@
       },
       "items": {
         "guide1": {
-          "title": "Basic privacy guide",
-          "description": "Learn fundamental concepts of digital privacy"
+          "title": "The Beginner's Guide to Digital Privacy",
+          "description": "Learn essential privacy practices, from secure messaging to data protection, and take control of your digital life"
         },
         "article1": {
-          "title": "Protect your passwords",
-          "description": "Best practices for password management"
+          "title": "Lock the Digital Door: A Guide to Strong Passwords",
+          "description": "Learn essential practices for creating and managing strong passwords, using password managers, and implementing two-factor authentication"
         },
         "video1": {
-          "title": "VPN setup",
-          "description": "Step-by-step tutorial for setting up a VPN"
+          "title": "How to Stay Safe Online with Free VPNs",
+          "description": "Step-by-step guide to protect your privacy using Windscribe and Proton VPN, with detailed setup instructions for desktop and mobile"
         },
         "podcast1": {
           "title": "The future of privacy",
