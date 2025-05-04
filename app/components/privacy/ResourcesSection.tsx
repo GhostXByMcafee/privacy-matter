@@ -24,7 +24,7 @@ export default function ResourcesSection({ customClass = '' }: ResourcesSectionP
       description: t('privacy.resources.items.guide1.description'),
       type: t('privacy.resources.types.guide'),
       icon: faBook,
-      url: 'https://privacymatters.ghost.io/the-beginners-guide-to-digital-privacy/'
+      url: 'https://blog.privacymatter.org/post/the-beginners-guide-to-digital-privacy/'
     },
     {
       id: 'article1',
@@ -32,7 +32,7 @@ export default function ResourcesSection({ customClass = '' }: ResourcesSectionP
       description: t('privacy.resources.items.article1.description'),
       type: t('privacy.resources.types.article'),
       icon: faFileAlt,
-      url: 'https://privacymatters.ghost.io/lock-the-digital-door-a-beginners-guide-to-strong-passwords/'
+      url: 'https://blog.privacymatter.org/post/lock-the-digital-door-a-beginners-guide-to-strong-passwords/'
     },
     {
       id: 'video1',
@@ -40,7 +40,7 @@ export default function ResourcesSection({ customClass = '' }: ResourcesSectionP
       description: t('privacy.resources.items.video1.description'),
       type: t('privacy.resources.types.video'),
       icon: faVideo,
-      url: 'https://privacymatters.ghost.io/how-to-stay-safe-online-with-free-vpns/'
+      url: 'https://blog.privacymatter.org/post/how-to-stay-safe-online-with-free-vpns/'
     }
     /* 
     {
@@ -168,7 +168,7 @@ export default function ResourcesSection({ customClass = '' }: ResourcesSectionP
                 {resource.description}
               </p>
               
-              <Link href={resource.url}>
+              <Link href={resource.url} target="_blank" rel="noopener noreferrer">
                 <motion.button 
                   className={`privacy-tool-button bg-gradient-to-r from-indigo-600 to-purple-600 text-white font-medium py-3 px-6 rounded-full w-full`}
                   whileHover={{ scale: 1.03 }}
