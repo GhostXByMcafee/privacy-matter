@@ -147,16 +147,19 @@ function ContactForm({ t }: ContactFormProps) {
         }),
       });
       
+      const responseData = await response.json();
+      
       if (response.ok) {
         setFormState('success');
         setTimeout(() => {
           resetForm();
         }, 3000);
       } else {
-        const error = await response.json();
-        throw new Error(error.message || 'There was an error sending your message.');
+        const errorMessage = responseData.message || responseData.error || 'Hubo un error al enviar tu mensaje.';
+        throw new Error(errorMessage);
       }
     } catch (error: any) {
+      console.error('Error sending form:', error);
       setFormState('error');
       setFormError(error.message || 'There was an error sending your message. Please try again.');
     }
